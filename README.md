@@ -137,6 +137,10 @@ python scripts/run_eval.py
 - **前端**：原生 HTML + Plotly
 - **数据格式**：Parquet
 
+## srzone-v1（新增，纸面执行）
+
+`src/srzone/` 是一套**新设计**的研究执行层，包在原有 V3 支撑/阻力几何之外。它不是原作者的交易策略，也不使用 A 股守住率当作币圈收益。默认只做纸面回测；Binance USD-M 实盘适配默认关闭，缺风控参数或未逐项确认时拒绝下单。说明见 [docs/SRZONE.md](docs/SRZONE.md)。
+
 ## 开源许可
 
 本项目采用 [GNU General Public License v3.0](LICENSE)。

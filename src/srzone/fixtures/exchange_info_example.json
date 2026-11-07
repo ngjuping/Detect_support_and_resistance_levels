@@ -1,0 +1,18 @@
+{
+  "note": "Schema example for parser tests. Not a live exchangeInfo snapshot. fapi.binance.com was not used to build this file.",
+  "symbols": [
+    {
+      "symbol": "ETHUSDT",
+      "status": "TRADING",
+      "contractType": "PERPETUAL",
+      "quoteAsset": "USDT",
+      "marginAsset": "USDT",
+      "filters": [
+        {"filterType": "PRICE_FILTER", "minPrice": "0.01", "maxPrice": "1000000", "tickSize": "0.01"},
+        {"filterType": "LOT_SIZE", "minQty": "0.001", "maxQty": "10000", "stepSize": "0.001"},
+        {"filterType": "MARKET_LOT_SIZE", "minQty": "0.001", "maxQty": "1000", "stepSize": "0.001"},
+        {"filterType": "MIN_NOTIONAL", "notional": "20"}
+      ]
+    }
+  ]
+}
