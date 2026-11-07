@@ -17,3 +17,6 @@ out/prob_exp/
 
 # Web 应用本地状态（数据文件夹路径记忆）
 .data_dir.txt
+
+# srzone 公开历史数据缓存（报告 JSON 可入库，zip 不入库）
+research_cache/
